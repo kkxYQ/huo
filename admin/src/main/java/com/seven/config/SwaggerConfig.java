@@ -28,7 +28,7 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo())
                 .select()
                 // 指定扫描包下面的注解
-                .apis(RequestHandlerSelectors.basePackage("com.example.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.seven.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

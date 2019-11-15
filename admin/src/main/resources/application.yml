@@ -39,7 +39,7 @@ spring:
 
 ## mybatis plus扫描
 mybatis-plus:
-  mapperLocations: classpath:/mappers/*.xml
+  mapperLocations: classpath:/mapping/*.xml
   global-config:
     db-config:
       db-type: mysql
