@@ -195,7 +195,7 @@ public class MpGenerator {
         //strategy.setSuperControllerClass("com.baomidou.ant.common.BaseController");
         // 写于父类中的公共字段
         //strategy.setSuperEntityColumns("id");
-        strategy.setInclude("t_code");//数据库表名
+        strategy.setInclude("t_newproject");//数据库表名
         strategy.setControllerMappingHyphenStyle(true);//驼峰转字符
         //根据你的表名来建对应的类名，如果你的表名没有什么下划线，比如test，那么你就可以取消这一步
         strategy.setTablePrefix("t_");
